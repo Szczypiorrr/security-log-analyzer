@@ -6,6 +6,3 @@ class LogEntry():
 
     def __repr__(self):
         return f"{self.name} | {self.status} | {self.ip}"
-    
-
-print(LogEntry())
