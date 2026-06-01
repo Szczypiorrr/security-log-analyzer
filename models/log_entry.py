@@ -1,4 +1,8 @@
 class LogEntry():
+    """
+    Represents a single parsed log entry
+    """
+
     def __init__(self, timestamp, name, status, ip):
         self.timestamp = timestamp
         self.name = name

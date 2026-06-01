@@ -1,4 +1,9 @@
+
 def generate_report(logs):
+    """
+    Generates a summary report for validated logs
+    """
+
     with open("reports/report.txt", "w") as f:
         f.write("========= LOG REPORT =========\n\n")
 
