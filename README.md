@@ -24,7 +24,7 @@ python main.py
 - Modular architecture
 
 ## 🧱 Project structure
-
+```text
 security-log-analyzer/
 │
 ├── main.py # Entry point of the application
@@ -46,6 +46,7 @@ security-log-analyzer/
 ├── requirements.txt 
 │
 └── README.md
+```
 
 ## 🚀 Technologies
 
@@ -82,5 +83,5 @@ FAIL: 3
 
 # 👤 Author
 
-Created by Szczypiorrrr
+Created by Szczypiorrrr  
 🔗 GitHub: https://github.com/Szczypiorrr
