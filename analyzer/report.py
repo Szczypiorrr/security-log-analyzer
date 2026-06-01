@@ -2,7 +2,7 @@ def generate_report(logs):
     with open("reports/report.txt", "w") as f:
         f.write("========= LOG REPORT =========\n\n")
 
-        f.write(f"Total logs: {len(logs)}\n")
+        f.write(f"Total logs: {len(logs)}\n\n")
 
         success = 0
         fail = 0
