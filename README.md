@@ -8,9 +8,27 @@ The goal of this project is to demonstrate basic data/backend processing skills 
 ### 1. Clone repository
 ```bash
 git clone https://github.com/Szczypiorrr/security-log-analyzer.git
-cd security-log-analyzer
+cd banking-system-simulator
 ```
-### 2. Run project
+### 2. Create virtual environment
+```bash
+python -m venv venv
+```
+### 3. Activate virtual environment
+Windows:
+```bash
+venv\Script\activate
+```
+
+Mac / Linux:
+```bash
+source venv/bin/activate
+```
+### 4. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+### 5. Run project
 ```bash
 python main.py
 ```
